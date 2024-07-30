@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="img/favicon.ico">
+  <title>Jeveline</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary mynavbar" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand brandlogo" href="#"><img src="img/jeveline.png" alt="jeveline"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0  mynavlink">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Review</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Shop</a>
+          </li>
+        </ul>
+        <span class="fa fa-shopping-cart cartfont"><sup class="cart-score">0</sup></span>
+        <button class="btn btn-outline-primary buybutton" type="submit">Buy Now</button>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid watch-box">
+    <div id="left-box">
+      <h1>Lifestyle <br> Smart <span class="watchcolor">Watch</span></h1>
+      <h5>technology of the future</h5>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris <br>
+        vitae sodales lectus, non ultrices nisi. In varius.</p>
+    </div>
+    <div id="right-box">
+      <img src="img/watch.png" alt="watch">
+    </div>
+  </div>
+
+  <div id="about-watch">
+    <h5>ABOUT OUR WATCHES</h5>
+    <h2><span class="watchcolor">New</span>, <span class="watchcolor">Improved</span> Design</h2>
+    <h2>and Performance</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae <br>
+      odales lectus, non ultrices nisi. In varius, leo non gravida.</p>
+  </div>
+
+  <div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div id="card-section">
+          <div class="card" style="width: 27.5rem;">
+            <img src="img/gallery6.jpg" class="card-img-top" alt="watch">
+          </div>
+          <div class="card" style="width: 27.5rem;">
+            <img src="img/gallery7.jpg" class="card-img-top" alt="watch">
+          </div>
+          <div class="card" style="width: 27.5rem; height: 30rem;">
+            <img src="img/gallery5.jpg" class="card-img-top" alt="watch">
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div id="card-section">
+          <div class="card" style="width: 27.5rem;">
+            <img src="img/Watchwhite4.jpg" class="card-img-top" alt="watch">
+          </div>
+          <div class="card" style="width: 27.5rem;">
+            <img src="img/Watchwhite3.jpg" class="card-img-top" alt="watch">
+          </div>
+          <div class="card" style="width: 27.5rem; height: 30rem;">
+            <img src="img/Watchwhite2.jpg" class="card-img-top" alt="watch">
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div id="card-section">
+          <div class="card" style="width: 27.5rem;">
+            <img src="img/Watchwhite.jpg" class="card-img-top" alt="watch">
+          </div>
+          <div class="card" style="width: 27.5rem;">
+            <img src="img/Watchwhite3.jpg" class="card-img-top" alt="watch">
+          </div>
+          <div class="card" style="width: 27.5rem; height: 30rem;">
+            <img src="img/Watchwhite2.jpg" class="card-img-top" alt="watch">
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <div id="splendid">
+    <div id="left-img">
+      <img src="img/splendid.jpg" alt="">
+    </div>
+    <div id="right-info">
+      <h5>MEET WITH OUR</h5>
+      <h2>Splendid Features</h2>
+
+
+
+      <div class="features">
+
+        <div id="voice">
+
+          <span class="fa fa-microphone right-icon"></span>
+
+          <div id="feature-info">
+            <h3> Voice Recognition</h3>
+            <p>Lorem ipsum dolor sit amet, con <br>
+              sectetur adipiscing elit. Mauris</p>
+
+          </div>
+        </div>
+
+
+      </div>
+
+
+      <div class="features" id="middle-feature">
+
+        <div id="mobile">
+
+          <span class="fa  fa-mobile right-icon"></span>
+
+          <div class="feature-info">
+            <h3> Connect with your phone</h3>
+            <p>Lorem ipsum dolor sit amet, con <br>
+              sectetur adipiscing elit. Mauris</p>
+          </div>
+        </div>
+
+
+      </div>
+
+
+      <div class="features">
+
+        <div id="wifi">
+
+          <span class="fa fa-wifi right-icon mywifi"></span>
+
+          <div class="feature-info">
+            <h3>Any task at hand</h3>
+            <p>Lorem ipsum dolor sit amet, con <br>
+              sectetur adipiscing elit. Mauris</p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div id="best-experience">
+    <div id="bestex-left">
+        <div id="upgrade">
+          <h5>NOW UPGRADED FOR</h5>
+          <h2>Best Experience</h2>
+        </div>
+    
+        <div class="info-progress">
+          <h3>+ Increased storage</h3>
+          <p>Lorem ipsum dolor sit amet, con <br>
+            sectetur adipiscing elit. Mauris</p>
+            <h3  class="info-per">30%</h3>
+            <br>
+          <progress class="myprogress" value="30" max="100"> </progress>
+        </div>
+    
+        <div class="info-progress" id="middle-progress">
+          <h3>+ Battery life</h3>
+          <p>Lorem ipsum dolor sit amet, con <br>
+            sectetur adipiscing elit. Mauris</p>
+            <h3  class="info-per">80%</h3>
+            <br>
+          <progress class="myprogress" value="80" max="100"> </progress>
+        </div>
+    
+        <div class="info-progress">
+          <h3>+ Display surface</h3>
+          <p>Lorem ipsum dolor sit amet, con <br>
+            sectetur adipiscing elit. Mauris</p>
+            <h3 class="info-per">60%</h3>
+            <br>
+          <progress class="myprogress" value="60" max="100"> </progress>
+        </div>
+    </div>
+
+    <div id="bestex-right">
+      <img src="img/bestex.jpg" alt="best">
+    </div>
+
+  </div>
+
+  <div id="watch-works">
+    
+      <div id="work-div">
+
+          <div id="work-info">
+
+            <h5>HOW IT WORKS</h5>
+            <h2 class="see">See for yourself.</h2>
+            <h2>Quick video introduction</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae <br>
+              odales lectus, non ultrices nisi. In varius, leo non gravida.</p>
+              
+          </div>
+    
+          <div id="intro-video">
+      
+            <iframe width="1008" height="567" src="https://www.youtube.com/embed/g4n2yVPnQzs?si=r5ydmF1avZAnEryo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+      
+          </div>
+
+      </div>
+
+  </div>
+
+  <div id="straps-section">
+
+    <div id="strap-text">
+      <h5>ADJUSTABLE STRAPS</h5>
+      <h2>Choose the best<br>
+        color for your activity</h2>
+    </div>
+
+    <div id="strap-card">
+
+      <div class="card" style="width: 25rem;">
+        <div class="card-body">
+          <h6 class="card-title">WRIST BAND</h6>
+          <h4 id="mint-card">Mint Green</h4>
+          <p class="card-text">$25.50</p>          
+        </div>
+        <img src="img/strap1.png" class="card-img-bottom" alt="strap">        
+      </div>
+
+      <div class="card purple-card" style="width: 25rem;">
+        <div class="card-body">
+          <h6 class="card-title">WRIST BAND</h6>
+          <h4 id="purple-card">Purple Green</h4>
+          <p class="card-text">$25.50</p>          
+        </div>
+        <img src="img/strap2.png" class="card-img-bottom" alt="strap">        
+      </div>
+
+      <div class="card" style="width: 25rem;">
+        <div class="card-body">
+          <h6 class="card-title">WRIST BAND</h6>
+          <h4 id="golden-card">Golden Green</h4>
+          <p class="card-text">$25.50</p>          
+        </div>
+        <img src="img/strap3.png" class="card-img-bottom" alt="strap">        
+      </div>
+
+    </div>
+
+    <button type="button" class="btn btn-outline-light">SEE MORE</button>
+
+  </div>
+
+  <div id="review-section">
+
+    <h2>What our<br>
+      customers say</h2>
+
+    <div id="customer-comments">
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active myreview" data-bs-interval="10000">
+            <img src="img/review1.jpg" class="d-block w-10 customer-img" alt="customer">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sapien leo, iaculis<br> rutrum lacus sed, fermentum tempor odio. Integer in ipsum<br> eleifend ipsum mattis pulvinar at vitae magna.</p>
+            <br>
+            <h3>Ella Jonson</h3>
+          </div>
+          <div class="carousel-item myreview" data-bs-interval="2000">
+            <img src="img/review2.jpg" class="d-block w-10 customer-img" alt="customer">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sapien leo, iaculis<br> rutrum lacus sed, fermentum tempor odio. Integer in ipsum<br> eleifend ipsum mattis pulvinar at vitae magna.</p>
+            <br>
+            <h3>Maggie Wilson</h3>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"><span class="fa fa-angle-left  review-button"></span></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"><span class="fa fa-angle-right  review-button"></span></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <span class="fa  fa-quote-right review-quote"></span>
+      
+  </div>
+
+  <div id="social-section">
+    <span class="fa fa-youtube-play"></span>
+    <span class="fa fa-twitter"></span>
+    <span class="fa fa-facebook-f"></span>
+    <span class="fa fa-instagram"></span>
+  </div>
+
+  <div id="footer-section">
+
+    <div id="inner-footer">
+      <div class="left-start" id="jeveline-footer">
+        <img src="img/jeveline.png" alt="jeveline">
+        <p>Lorem ipsum dolor sit amet, consectetuer</p>
+        <p>adipiscing elit, sed diam.</p>
+        <div id="atm-card">
+          <i class="fa-brands fa-cc-visa atm"></i>
+          <i class="fa-brands fa-cc-mastercard atm"></i>
+          <i class="fab fa-cc-amex atm"></i>
+          <i class="fa-brands fa-cc-paypal atm"></i>
+          <i class="fa-brands fa-cc-jcb atm"></i>
+        </div>
+        <i class="fa-solid fa-lock" id="lock"></i>
+        <p id="secure">Secure online payment</p>
+      </div>
+  
+      <div class="left-start footer-head" id="best-footer">
+        <h3>BEST EXPERIENCE</h3>
+        <span>FAQ</span>
+        <span>Shipment</span>
+        <span>Returns</span>
+        <span>Gift cards</span>
+        <span>Policies</span>
+      </div>
+  
+      <div class="left-start footer-head" id="company-footer">
+        <h3>COMPANY</h3>
+        <span>About us</span>
+        <span>Press</span>
+        <span>Offices</span>
+        <span>Affiliates</span>
+        <span>Giveaway</span>
+      </div>
+    </div>
+
+    <p class="vyrazu">A Venture of Vyrazu Labs Pvt. Ltd. (ISO 9001:2015 Certified Company) </p>
+
+  </div>
+
+  <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
