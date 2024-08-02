@@ -6,6 +6,7 @@ body {
 .mynavbar{
     position: sticky;
     top: 0;
+    z-index: 10;
 }
 
 .mynavlink{
@@ -72,6 +73,11 @@ body {
     background-color: #333333;
 }   
 
+#watch-box{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 #left-box h1{
     font-size: 90px;
     line-height: 100px;
@@ -119,20 +125,28 @@ body {
 #about-watch p{
      font-weight: 700;
      margin-top: 3rem;
+     color: #b2aabf;
 }
 
 #card-section{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+    box-shadow: 5px 5px 10px;
+}
+
+#card-section .card img:hover{
+    transform: scale(1.25);
+    cursor: pointer;    
 }
 
 #splendid{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     margin-top: 8rem;
     margin-bottom: 8rem;
 }
-
 
 
 #right-info h5{
@@ -192,6 +206,7 @@ body {
 #best-experience{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     margin-bottom: 8rem;
 }
 
@@ -274,6 +289,7 @@ body {
 }
 
 #straps-section{
+    flex-wrap: wrap;
     text-align: center;
     background-color: #363636;
 }
@@ -299,6 +315,7 @@ body {
 #strap-card{
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 #strap-card .card img{
@@ -351,6 +368,10 @@ body {
     line-height: 40px;
     padding-left: 40px;
     padding-right: 40px;
+}
+
+#straps-section button:hover{
+    background-color: transparent;
 }
 
 #review-section{
@@ -406,8 +427,13 @@ body {
 }
 
 #social-section .fa{
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     padding: 2rem;
+    color: #fff;
+}
+
+#social-section .fa:hover{
+    opacity: 0.75;
 }
 
 #footer-section{
@@ -429,11 +455,16 @@ body {
     color: #a1a1a1;
     padding-top: 4rem;
     padding-bottom: 3rem;
+    margin-bottom: 0;
 }
 
 #jeveline-footer img{
     margin-top: 4rem;
     margin-bottom: 2rem;
+}
+
+#jeveline-footer img:hover{
+    opacity: 0.75;
 }
 
 #jeveline-footer p{
@@ -456,11 +487,13 @@ body {
     font-size: 0.75rem;
     float: left;
     padding-right: 1rem;
+    margin-top: -0.20rem;
 }
 
 #secure{
     float: left;
     font-size: 0.95rem;
+    margin-left: -0.15rem;
 }
 
 #inner-footer .footer-head h3{
@@ -473,7 +506,15 @@ body {
 #inner-footer .footer-head span{
     display: block;
     color: #a1a1a1;
-    padding-bottom: 0.5rem;
+    padding-bottom: 0.5rem;    
+}
+
+#inner-footer a{
+    text-decoration: none;
+}
+
+#inner-footer a:hover{
+    opacity: 0.5;
 }
 
 #inner-footer .footer-head{
@@ -484,4 +525,27 @@ body {
 #jeveline-footer{
     position: relative;
     left: -3.5rem;
+}
+
+.shift-top{
+    float: right;
+    font-size: 4rem;
+    color: #a1a1a1;
+    margin-top: 4rem;
+    margin-right: 4rem;
+    text-decoration: none;
+}
+
+.shift-top:hover{
+    color: #7d1eff;
+}
+
+#right-box .fa{
+    font-size: 4rem;
+    color: #a1a1a1;
+    text-decoration: none;
+}
+
+#right-box .fa:hover{
+    color: #7d1eff;
 }
