@@ -7,10 +7,15 @@ body {
     position: sticky;
     top: 0;
     z-index: 10;
+    background-color: #333;
 }
 
 .mynavlink{
-    margin-left: 17rem;
+    margin: auto;
+}
+
+.mynavlink li a{
+    color: #fff;
 }
 
 .mynavlink li{
@@ -27,7 +32,7 @@ body {
     background-color: #7d1eff;
     border-radius: 25px;
     color: #fff;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 700;
     line-height: 2.5rem;
     width: 10rem;
@@ -78,15 +83,19 @@ body {
     flex-wrap: wrap;
 }
 
+#left-box{
+    margin-top: 9rem;
+}
+
 #left-box h1{
-    font-size: 90px;
-    line-height: 100px;
+    font-size: 6rem;
+    line-height: 6.25rem;
     font-weight: 700;
     color: #fff;
 }
 
 #left-box h5{
-    font-size: 20px;
+    font-size: 1.25rem;
     text-transform: uppercase;
     font-weight: 700;
     margin-top: 2.5rem;
@@ -95,8 +104,8 @@ body {
 }
 
 #left-box p{
-    font-size: 16px;
-    line-height: 30px;
+    font-size: 1rem;
+    line-height: 2rem;
     font-weight: 500;
     color: #7f7b87;
 }
@@ -131,7 +140,7 @@ body {
 #card-section{
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     box-shadow: 5px 5px 10px;
 }
 
@@ -143,11 +152,15 @@ body {
 #splendid{
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     margin-top: 8rem;
     margin-bottom: 8rem;
 }
 
+#left-img, #right-info{
+    padding-left: 4.5rem;
+    padding-right: 4.5rem;
+}
 
 #right-info h5{
     font-weight: 800;
@@ -206,8 +219,13 @@ body {
 #best-experience{
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     margin-bottom: 8rem;
+}
+
+#bestex-left, #bestex-right{
+    padding-left: 4.5rem;
+    padding-right: 4.5rem;
 }
 
 #middle-progress{
@@ -289,7 +307,7 @@ body {
 }
 
 #straps-section{
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     text-align: center;
     background-color: #363636;
 }
@@ -315,7 +333,7 @@ body {
 #strap-card{
     display: flex;
     justify-content: space-evenly;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 
 #strap-card .card img{
@@ -363,11 +381,11 @@ body {
     margin-bottom: 6rem;
     border-radius: 25px;
     color: #fff;
-    font-size: 14px;
+    font-size: 1rem;
     font-weight: 700;
-    line-height: 40px;
-    padding-left: 40px;
-    padding-right: 40px;
+    line-height: 2.5rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
 }
 
 #straps-section button:hover{
@@ -384,7 +402,7 @@ body {
     font-weight: 900;
     color: #3f3849;
     padding-top: 8rem;
-    margin-bottom: 3rem;
+    margin-bottom: -2rem;
 }
 
 #review-section img{
@@ -408,7 +426,10 @@ body {
 }
 
 #customer-comments .slide .carousel-inner .myreview img{
-    margin-left: 44.5rem;
+    margin: auto;
+    position: relative;
+    top: 6.5rem;
+    margin-bottom: 8rem;
 }
 
 #review-section .review-quote{
@@ -422,6 +443,9 @@ body {
     justify-content: center;
     padding-top: 2rem;
     padding-bottom: 2rem;
+}
+
+#social-part{
     background-color: #7d1eff;
     border-bottom: 6px solid white;
 }
@@ -470,7 +494,6 @@ body {
 #jeveline-footer p{
     text-align: left;
     color: #a1a1a1;
-    line-height: 0.5rem ;
     margin-bottom: 1.5rem;
 }
 
@@ -517,26 +540,27 @@ body {
     opacity: 0.5;
 }
 
-#inner-footer .footer-head{
-    position: relative;
-    left: -18rem;
-}
-
-#jeveline-footer{
-    position: relative;
-    left: -3.5rem;
-}
-
 .shift-top{
     float: right;
     font-size: 4rem;
-    color: #a1a1a1;
+    color: #fff;
     margin-top: 4rem;
     margin-right: 4rem;
     text-decoration: none;
 }
 
 .shift-top:hover{
+    color: #7d1eff;
+}
+
+.shift-bottom{
+    float: right;
+    font-size: 4rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.shift-bottom:hover{
     color: #7d1eff;
 }
 
