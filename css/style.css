@@ -1,3 +1,8 @@
+/* *{
+    margin: 0;
+    overflow-x: hidden;
+} */
+
 body {
     font-family: "Poppins", sans-serif;
     scroll-behavior: smooth;
@@ -24,7 +29,7 @@ body {
     font-weight: 800;
 }
 
-.mynavlink li:hover{
+.mynavlink li a:hover{
     opacity: 0.75;
 }
 
